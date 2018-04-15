@@ -1,0 +1,1 @@
+# swagger-gen-mapping-gen
