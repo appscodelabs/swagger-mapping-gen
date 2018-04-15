@@ -17,10 +17,12 @@ func main() {
 	typeMappings := map[string]string{
 		"intstr.IntOrString":"IntOrString",
 		"resource.Quantity":"Quantity",
+		"runtime.RawExtension" : "RuntimeRawExtension",
 	}
 	importMappings := map[string]string{
 		"IntOrString":"io.kubernetes.client.custom.IntOrString",
 		"Quantity":"io.kubernetes.client.custom.Quantity",
+		"RuntimeRawExtension": "io.kubernetes.client.models.RuntimeRawExtension",
 	}
 
 	filename := runtime.GOPath() + "/src/github.com/kubernetes-client/java/kubernetes/src/main/java/io/kubernetes/client/models"
