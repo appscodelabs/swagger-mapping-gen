@@ -1,0 +1,8 @@
+hash: 03a7527e127096963d4a1e0abebdb893d8803e2be1e49cd29f6ec6ca62ecf06c
+updated: 2018-04-15T00:23:14.766121515-07:00
+imports:
+- name: github.com/appscode/go
+  version: 0eb2cabe3897bfd0fe615e9849583a88bcc82df4
+  subpackages:
+  - runtime
+testImports: []

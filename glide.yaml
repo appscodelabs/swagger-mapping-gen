@@ -1,0 +1,3 @@
+package: github.com/tamalsaha/swagger-gen-mapping-gen
+import:
+- package: github.com/appscode/go
